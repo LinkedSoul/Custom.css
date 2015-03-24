@@ -1,0 +1,2179 @@
+@-moz-document domain("pokemonshowdown.com"), domain("psim.us"), domain("replay.pokemonshowdown.com") {
+.header .logo {
+    display: none;
+        float: left;
+        margin: 2px 0 0 2px;
+}
+ 
+.pm-window.focused h3:hover{
+ 
+    background:#3498db}
+ 
+.pm-window h3, .pm-window.focused h3{
+ 
+    color:#ecf0f1;
+ 
+    background:#1b1b1b;
+ 
+    margin:0;
+ 
+    padding:2px 5px;
+ 
+    font-size:11pt;
+ 
+    border-width:0;
+ 
+    cursor:pointer;
+ 
+    border-radius:1px !important;}
+ 
+  .pm-window{
+   
+    background:url(http://i.imgur.com/d86yRo1.jpg);
+   
+    background-size: cover;
+ 
+    border-width:0}
+ 
+ 
+.chat small {
+font-weight:normal;
+font-size: 8pt;
+color: #ecf0f1;
+}
+ 
+.chat em {
+padding: 0 4px 0 3px;
+font-style: normal;
+color: #ecf0f1;
+}
+ 
+.ps-room {
+position: absolute;
+display: block;
+top: 60px;
+left: 0;
+right: 0;
+bottom: 0;
+border-left: 1px solid #AAAAAA;
+margin-left: -1px;
+}
+ 
+.ps-room.ps-room-opaque{
+ 
+    background:url(http://i.imgur.com/BfWMzGe.png);
+       
+        overflow: hidden;
+       
+        position: fixed;
+ 
+    color:white}
+ 
+.ps-room.ps-room-light{
+  opacity:0.9;
+  color: red;
+  background: black;
+}
+ 
+.siderooms{
+ 
+      background:none;
+}
+ 
+.roomlist {
+        text-align: center;
+}
+ 
+#header {
+background:none;
+}
+ 
+.battle-log{
+ 
+    background:url(http://i.imgur.com/hsqGAFE.png);
+ 
+    border-width:0;
+ 
+}
+ 
+.chat-log{
+ 
+    background:#000;
+ 
+    border-width:0;
+   
+    color: #ecf0f1;
+ 
+}
+ 
+.ps-room .battle-log-add {
+     
+    background: gray !important;
+       
+        border-color: black;
+     
+}
+ 
+.pm-window h3 small  {
+color:#58ACFA;        
+border-color:black;
+}
+.pm-log-add {
+        background-color:#013770;
+        border-color:black;
+}
+ 
+.pm-log-add.focused {
+        background-color:#00e1ff;
+        border-color:#00e1ff;
+}
+ 
+ 
+.userbar:before {
+display: block;
+content: "";
+width: 32px;
+height: 32px;
+float: left;
+position: relative;
+top: -9px;
+}
+ 
+.userbar:before {
+background: url(http://i.imgur.com/G9FpoXs.png);
+}
+ 
+.icon-user {
+        display:none;
+  }    
+ 
+body, mainmenuwrapper {
+font-size: 11pt;
+font-family: Verdana,Helvetica,Arial,sans-serif;
+background: url(http://i.imgur.com/W3tniC0.png)!important;
+background-size:cover!important;
+}
+ 
+ .chat-log-add {
+background: url(http://i.imgur.com/urdZ7Vg.png);
+border-color: black;
+}
+       
+.menugroup .button{
+ 
+font-size:12px;
+font-weight:bold;
+color:#fbfbfb;  
+text-align:center;
+text-shadow: 1px 1px 1px #4d4d4d,
+1px 0px 1px #4d4d4d;
+background: url(http://i.imgur.com/iXHSA9N.png);
+box-shadow:none;
+border-radius:0px;
+border-width:0;
+width:230px;
+padding-left:20px;
+padding-top:10px;
+padding-bottom:16px;
+}
+ 
+  .menugroup button.big {
+width: 230px;
+padding-left:20px;
+padding-top:10px;
+padding-bottom:11px;
+font-size: 12pt;
+}  
+.menugroup .button:hover{
+ 
+font-size:12px;
+ 
+font-weight:bold;
+color:#fbfbfb;  
+text-align:center;
+text-shadow: 1px 1px 1px #4d4d4d,
+1px 0px 1px #4d4d4d;
+background: url(http://i.imgur.com/bZ95IlW.png);
+box-shadow:none;
+border-radius:0px;
+border-width:0;
+width:230px;
+padding-left:20px;
+padding-top:10px;
+padding-bottom:16px;
+}
+  .menugroup button.big:hover {
+width: 230px;
+padding-left:20px;
+padding-top:10px;
+padding-bottom:11px;
+font-size: 12pt;
+}    
+ 
+.menugroup .button.disabled,
+.menugroup .button.disabled:hover,
+.menugroup .button.disabled:active {
+        cursor: default;
+        border: solid 2px;
+        background: url(http://i.imgur.com/bZ95IlW.png);
+        background-size: 100%;
+        border-color: black;
+        box-shadow: none;
+}
+ 
+ 
+.tabbar {
+        position: absolute;
+        bottom: 1px;
+        left: 0;
+        right: 0;
+ 
+        display: block;
+        list-style: none;
+        margin: 0;
+        padding: 0 0 0 0;
+        height: 37px;
+        text-align: left;
+ 
+        color: white;
+        text-shadow: none;
+        font-size: 16px;
+ 
+        line-height: 100%;
+}
+.maintabbarbottom {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -6px;
+        height: 6px;
+        background: white;
+        border: 1px solid lightgrey;
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+        margin: -1px 0 0 0;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+}
+.tabbar.maintabbar {
+        margin-left: 0px;
+        margin-right: 165px;
+        overflow: hidden;
+}
+.maintabbar .inner {
+        width: 400%;
+}
+.maintabbar .overflow {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 12;
+}
+.maintabbar .overflow button {
+        height: 37px;
+        margin: 0;
+}
+ 
+.tabbar li,
+.tabbar ul {
+        display: block;
+        float: left;
+ 
+        list-style: none;
+        margin: 0;
+        padding: 0;
+}
+.tabbar a.button {
+        outline: none;
+        display: inline-block;
+        height: 30px;
+        min-width: 150px;
+        cursor: pointer;
+        text-align: center;
+        text-shadow: none;
+        border-radius: 5px;
+ 
+        white-space: nowrap;
+ 
+        /* default colors */
+        color: white;
+        text-shadow: none;
+        border: solid 2px white !important;
+        background: rgba(0, 0, 0, 0);
+ 
+        position: relative;
+        padding: 3px 2px 3px 0px;
+        margin: 0 -2px 0 0;
+        top: 2px;
+        border-radius: 0;
+        box-shadow: none;
+        font-size: 11px;
+}
+.tabbar a.button i {
+        display: block;
+        text-align: center;
+        margin: 1px auto 0 auto;
+        font-style: normal;
+        font-size: 14px;
+        height: 14px;
+}
+.tabbar a.button span {
+        display: block;
+        overflow: hidden;
+}
+.tabbar a.button i.text {
+        font-size: 11px;
+        margin-right: 8px;
+        padding-left: 0;
+        overflow: hidden;
+        font-weight: bold;
+}
+.tabbar a.button i.text + span {
+        margin-right: -6px;
+}
+.tabbar a.button:hover {
+        background: rgba(0, 0, 0, 0);
+        border-color: white;
+ 
+        z-index: 10;
+}
+.tabbar a.button:active {
+        background: rgba(0, 0, 0, 0);
+        border-color: white;
+ 
+}
+.tabbar a.button.notifying {
+        background: rgba(0, 0, 0, 0);
+        border-color: white;
+}
+.tabbar a.button.notifying:hover {
+        background: rgba(0, 0, 0, 0);
+        border-color: white;
+}
+.tabbar a.button.cur,
+.tabbar a.button.cur:hover {
+        color: white;
+        background: rgba(0, 0, 0, 0);
+        box-shadow: none;
+        border-color: white;
+        border-bottom: 0;
+        cursor: default;
+        padding-top: 3px;
+        padding-bottom: 5px;
+        top: 0px;
+}
+ 
+.tabbar li:first-child a.button {
+        border-top-left-radius: 5px;
+        margin-left: 6px;
+}
+.tabbar li:last-child a.button {
+        border-top-right-radius: 5px;
+}
+.tabbar a.closable {
+        padding-right: 8px;
+}
+.tabbar .closebutton {
+        display: inline-block;
+        margin: 0 0 0 -19px;
+        width: 18px;
+        position: relative;
+        z-index: 11;
+        top: 5px;
+        vertical-align: top;
+}
+.tabbar a.cur + .closebutton {
+        top: 4px;
+}
+.closebutton,
+.minimizebutton {
+        text-decoration: none;
+        font-size: 14px;
+        color: white;
+        text-shadow: none;
+        border: 0;
+        padding: 0;
+        margin: 0;
+        background: transparent;
+        cursor: pointer;
+}
+.closebutton:hover,
+.minimizebutton:hover {
+        color: #C12942;
+}
+.closebutton:active,
+.minimizebutton:active {
+        color: #C12942;
+}
+ 
+#lobby-userlist-users small{
+ 
+     color:#ecf0f1
+}
+ 
+.userlist{
+ 
+    background:#000000}
+ 
+ 
+.userlist li button:hover{
+ 
+    background:red;
+ 
+    border-radius: 1px;
+}
+ 
+.userlist li{
+ 
+    border-bottom:1px solid blue;
+        color: white;
+}
+ 
+.mainmenufooter small:after {
+          content: "Kyogre and Groudon background by PLDHTophat";
+      text-shadow: 0 1px black;
+      position: absolute;
+      left: 300px;
+      top: -40px;
+      width: 200px;
+}
+ 
+.message-announce {
+background:#0174DF;
+}
+ 
+.infobox, .ladder, .pm-window{
+ 
+    position:relative;
+ 
+    border:1px solid #181818;
+ 
+    border-radius:2px;
+ 
+    box-shadow:inset 0px 0px 0px 1px rgba(0,0,0,.2);
+ 
+    margin-top:5px;
+ 
+    color:white;
+ 
+    background-color:#37434a}
+ 
+.pad, .ps-popup, .pm-log{
+background: none;
+overflow: auto;
+}
+.statbar
+ 
+{
+ 
+position:absolute;
+ 
+display:none;
+ 
+width:300px;
+   
+height:70px;
+   
+ 
+   
+min-height:0px;
+ 
+padding:1px 0px 0px 32px}
+ 
+.statbar strong
+ 
+{
+ 
+position:absolute;
+left:-40px;
+top:-21px;
+font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+font-size:17px;
+font-weight:normal;
+display:block;
+text-align:left;
+color:#FFF;
+ 
+    background:url(http://i.imgur.com/waB6Zxn.png);
+    height:50px;
+    width:230px;
+    padding-left:50px;
+        text-shadow:#000 1px 1px 0,#000 1px -1px 0,#000 -1px 1px 0,#000 -1px -1px 0}
+ 
+.statbar strong small
+ 
+{
+ 
+font-size:17px;
+font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+color:#acc5d4;
+font-weight:normal}
+ 
+.statbar .hpbar
+ 
+{
+ 
+position:relative;
+ 
+border:2px solid #c0c0c0;
+ 
+background:url(http://i.imgur.com/ByYA9T2.png);
+ 
+height:6px;
+ 
+margin:0 0 0 0;
+ 
+width:151px;
+ 
+border-radius:4px;
+ 
+padding:0;
+ 
+top:5px}
+ 
+.hptextborder{
+ 
+display:none !important}
+   
+ 
+.statbar .hpbar .hp
+ 
+{
+ 
+height:3px;
+ 
+border-top:1px solid #007734;
+ 
+background:#00bb51;
+ 
+border-bottom:2px solid #007734;
+ 
+border-radius:0px}
+ 
+.statbar .hpbar .hp-yellow
+ 
+{
+ 
+background-color:#f5d538;
+ 
+border-color:#be9f0a}
+ 
+.statbar .hpbar .hp-red
+ 
+{
+ 
+background-color:#ee4928;
+ 
+border-color:#a3260d}
+ 
+.statbar .hpbar .prevhp
+ 
+{
+ 
+background:url(http://i.imgur.com/ByYA9T2.png);  
+ 
+height:6px;
+ 
+border-radius:0px}
+ 
+.statbar .hpbar .prevhp-yellow
+ 
+{
+ 
+background:url(http://i.imgur.com/ByYA9T2.png); }
+ 
+.statbar .hpbar .prevhp-red
+ 
+{
+ 
+background-color:#facec5}
+ 
+.hptext{
+ 
+margin-top:2px}
+ 
+ 
+.statbar .hpbar .hptext
+ 
+{
+ 
+position:absolute;
+ 
+color:#FFFFFF;
+ 
+text-shadow:1px 0 black,-1px 0 black,0 1px black,0 -1px black;
+ 
+font-size:9px;
+ 
+width:32px;
+ 
+height:12px;
+ 
+top:-1px;
+ 
+text-align:center}
+ 
+.rstatbar .hpbar .hptext
+ 
+{
+ 
+width:42px;
+ 
+height:16px;
+ 
+background:url(http://i.imgur.com/LPDWEbx.png);
+ 
+right:-50px;
+ 
+top:-7px;
+ 
+font-size:10px;
+   
+font-weight:bold;
+   
+color:#e0783a;
+ 
+border-radius:0 4px 4px 0}
+   
+   
+ 
+.lstatbar .hpbar .hptext
+ 
+{
+ 
+width:40px;
+ 
+height:16px;
+ 
+background:url(http://i.imgur.com/LPDWEbx.png);
+ 
+left:158px;
+ 
+top:-7px;
+ 
+font-size:10px;
+   
+font-weight:bold;
+   
+color:#e0783a;
+ 
+border-radius:4px 0 0 4px;
+ 
+padding-left:2px}
+ 
+.statbar .status
+ 
+{
+ 
+ margin-top:15px;
+ 
+min-height:10px;
+ 
+font-size:7pt}
+ 
+ 
+.statbar span.frz
+ 
+{
+ 
+position:absolute;
+ 
+left:-107px;
+ 
+top:-5.6px;
+ 
+font-size:0px;
+   
+background:url(http://i.imgur.com/L7UTW2y.png);
+ 
+padding:10px 36px;
+ 
+border:0;
+ 
+border-radius:3px}
+   
+.statbar span.frz:hover{
+   
+transition:All 1.6116s ease;  
+transform: rotate(0deg) scale(0.90) skew(0deg) translate(0px);
+   
+}    
+   
+   
+.statbar span.slp
+ 
+{
+ 
+position:absolute;
+ 
+left:-107px;
+ 
+top:-5.6px;
+ 
+font-size:0px;
+   
+background:url(http://i.imgur.com/D3VqIVw.png);
+ 
+padding:10px 36px;
+ 
+border:0;
+ 
+border-radius:3px}
+   
+.statbar span.slp:hover{
+   
+transition:All 1.6116s ease;    
+transform: rotate(0deg) scale(0.90) skew(0deg) translate(0px);
+   
+}    
+   
+.statbar span.par
+ 
+{
+ 
+position:absolute;
+ 
+left:-107px;
+ 
+top:-5.6px;
+ 
+font-size:0px;
+   
+background:url(http://i.imgur.com/4XrzuuB.png);
+ 
+padding:10px 36px;
+ 
+border:0;
+ 
+border-radius:3px}
+   
+.statbar span.par:hover{
+   
+transition:All 1.6116s ease;    
+transform: rotate(0deg) scale(0.90) skew(0deg) translate(0px);
+   
+}
+       
+   
+.statbar span.brn
+ 
+{
+ 
+position:absolute;
+ 
+left:-107px;
+ 
+top:-5.6px;
+ 
+font-size:0px;
+   
+background:url(http://i.imgur.com/4F0lebL.png);
+ 
+padding:10px 36px;
+ 
+border:0;
+ 
+border-radius:3px}
+   
+.statbar span.brn:hover{
+   
+transition:All 1.6116s ease;    
+transform: rotate(0deg) scale(0.90) skew(0deg) translate(0px);
+   
+}    
+   
+.statbar span.psn
+ 
+{
+ 
+position:absolute;
+ 
+left:-107px;
+ 
+top:-5.6px;
+ 
+font-size:0px;
+   
+background:url(http://i.imgur.com/4wrWKR0.png);
+ 
+padding:10px 36px;
+ 
+border:0;
+ 
+border-radius:3px}    
+   
+.statbar span.psn:hover{
+   
+transition:All 1.6116s ease;    
+transform: rotate(0deg) scale(0.90) skew(0deg) translate(0px);
+   
+}
+   
+.statbar span.bad
+ 
+{
+ 
+background:#e74c3c;
+ 
+color:#ecf0f1;
+ 
+border-color:#c0392b}
+ 
+.statbar span.good
+ 
+{
+ 
+background:#27ae60;
+ 
+color:#ecf0f1;
+ 
+border-color:#067A37}
+ 
+.statbar span.neutral
+ 
+{
+ 
+background:#7f8c8d;
+ 
+color:#ecf0f1;
+ 
+border:solid #2c3e50}
+ 
+.ps-room .battle{
+ 
+top:60px;
+ 
+border-width:0px}
+ 
+.foehint{  
+position:relative;
+ 
+top:45px}      
+       
+.battle{
+ 
+    border:0px solid #AAAAAA;
+ 
+    width:640px;
+ 
+    height:360px;
+ 
+    overflow:visible;
+ 
+    font-family:Verdana,sans-serif;
+ 
+    font-size:10pt}
+ 
+ 
+.backdrop:before{
+ 
+        display:block;
+ 
+        content:"";
+ 
+        background-size:cover;
+ 
+        width:640px;
+ 
+    height:360px}
+ 
+.backdrop{
+ 
+    width:640px;
+ 
+    height:360px;
+ 
+    position:absolute;
+ 
+    top:0px;
+ 
+    left:0px;
+ 
+    overflow:hidden;
+ 
+    background-size:cover;
+ 
+    opacity:1 !important}
+ 
+.backdrop:after {
+ 
+display:block ;
+ 
+content:"";
+ 
+background:url(http://i.imgur.com/hVVDYsx.png);
+   
+position:absolute;
+ 
+top:0;
+ 
+left:0;
+ 
+width:640px;
+ 
+height:360px}
+ 
+.ps-room .battle-controls{
+ 
+top:430px}
+   
+   
+    .backdrop[style*="bg-beach.png"] {
+ 
+        background-image: url(http://i.imgur.com/VELQgwr.png) !important;
+ 
+}
+ 
+.backdrop[style*="bg-beachshore.png"] {
+ 
+        background-image: url(http://i.imgur.com/u8MCjow.png) !important;
+ 
+}
+ 
+.backdrop[style*="bg-city.png"] {
+ 
+        background-image: url(http://i.imgur.com/DZ3sjzi.png) !important;
+ 
+}
+ 
+.backdrop[style*="bg-dampcave.png"] {
+ 
+        background-image: url(http://i.imgur.com/tRd4nYn.png) !important;
+ 
+}
+ 
+.backdrop[style*="bg-deepsea.png"] {
+ 
+        background-image: url(http://i.imgur.com/bl4VcPo.png) !important;
+ 
+}
+ 
+.backdrop[style*="bg-desert.png"] {
+ 
+        background-image: url(http://i.imgur.com/wN17Epp.png) !important;
+ 
+}
+ 
+.backdrop[style*="bg-earthycave.png"] {
+ 
+        background-image: url(http://i.imgur.com/ziM9ox5.png) !important;
+ 
+}
+ 
+.backdrop[style*="bg-forest.png"] {
+ 
+        background-image: url(http://i.imgur.com/jpcRKiP.png) !important;
+ 
+}
+ 
+.backdrop[style*="bg-icecave.png"] {
+ 
+        background-image: url(http://i.imgur.com/tVjEzYl.png) !important;
+ 
+}
+ 
+.backdrop[style*="bg-meadow.png"] {
+ 
+        background-image: url(http://i.imgur.com/mTTfO7s.png) !important;
+ 
+}
+ 
+.backdrop[style*="bg-mountain.png"] {
+ 
+        background-image: url(http://i.imgur.com/LtKWcbR.png) !important;
+ 
+}
+ 
+.backdrop[style*="bg-river.png"] {
+ 
+        background-image: url(http://i.imgur.com/iRVM4ZW.png) !important;
+ 
+}
+ 
+.backdrop[style*="bg-route.png"] {
+ 
+        background-image: url(http://i.imgur.com/8TIG1uB.png) !important;
+ 
+ 
+}
+ 
+.backdrop[style*="bg-thunderplains.png"] {
+ 
+        background-image: url(http://i.imgur.com/06XvmIW.png) !important;
+ 
+}
+ 
+.backdrop[style*="bg-volcanocave.png"] {
+ 
+        background-image: url(http://i.imgur.com/4hZkJGf.png) !important;
+ 
+}
+ 
+ 
+.turn{
+ 
+    position:absolute;
+ 
+    top:-70px;
+ 
+    left:270px !important;
+ 
+    width:101px;
+ 
+    height:17px;
+ 
+    font-size:8pt;
+ 
+    font-weight:bold;
+ 
+    margin:0px;
+ 
+    padding:0px;
+ 
+    padding-top:35px;
+ 
+    border:0;
+ 
+    border-radius:0;
+ 
+    opacity:1 !important;
+ 
+    background:url(http://i.imgur.com/6SgSXmb.png);
+ 
+    text-align:center;
+ 
+    color:#cccccc}
+ 
+.rightbar{
+ 
+position:absolute;
+ 
+top:-60px;
+ 
+right:15px;
+ 
+height:100px;
+ 
+width:320px;
+ 
+background-color:rgba(255,255,255,0);
+ 
+border:0px solid rgba(215,215,215,0.5);
+ 
+color:#777777;
+ 
+background-image:url(http://i.imgur.com/nTem8oK.png);
+ 
+background-position:0px -21px}
+ 
+.rightbar .trainer{
+ 
+margin-top:0px;
+ 
+left:08px}
+ 
+.rightbar .trainersprite{
+ 
+position:absolute;
+ 
+top:0px;
+ 
+left:40px;
+ 
+opacity:1 !important}
+   
+   
+.trainer strong{
+ 
+display:block;
+ 
+font-size:12pt;
+ 
+overflow:hidden;
+ 
+padding-top:10px;
+ 
+padding-left:110px;
+   
+color:#fafafa}
+   
+.rightbar .trainer strong{
+ 
+display:block;
+   
+ 
+font-size:12pt;
+   
+text-align:left;
+   
+overflow:hidden;
+   
+position:relative;
+   
+left:20px;
+ 
+}  
+ 
+ 
+.rightbar .trainer .teamicons{
+ 
+float:left;
+     
+position:relative;
+ 
+top:0px;
+ 
+left:108px}
+ 
+.leftbar{
+ 
+position:absolute;
+ 
+top:-60px;
+ 
+left:15px;
+ 
+height:100px;
+ 
+width:320px;
+ 
+background-color:rgba(255,255,255,0);
+ 
+border:0px solid rgba(215,215,215,0.5);
+ 
+color:#777777;
+ 
+background-image:url(http://i.imgur.com/oIjX6jC.png);
+ 
+background-position:0px -21px}
+ 
+.leftbar .trainer{
+ 
+margin-top:0px;
+ 
+text-align:left}
+ 
+.leftbar .trainersprite{
+ 
+position:absolute;
+ 
+top:0px;
+ 
+right:40px;
+ 
+opacity:1 !important}
+ 
+.leftbar .trainer strong{
+ 
+display:block;
+ 
+font-size:12pt;
+ 
+overflow:hidden;
+ 
+padding-top:10px;
+   
+text-align:right;
+   
+position:relative;
+   
+left:-130px;
+ 
+}
+ 
+ 
+ 
+.leftbar .trainer .teamicons{
+ 
+float:right;
+ 
+position:relative;
+ 
+top:1px;
+ 
+right:108px}
+   
+.whatdo {
+     
+position:relative;
+ 
+z-index: 1;
+   
+color:#fbfbfb!important;
+   
+font-size:11.5pt!important;  
+       
+opacity:0.9;
+       
+bottom:59px;
+   
+font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+ 
+right:-20px}
+   
+.whatdo strong{
+     
+font-weight:normal;
+   
+font-size:11.5pt!important;  
+}
+ 
+.healthy{
+ 
+float:right;
+color:#b4b4b4;
+position:relative;
+top:1px;
+opacity:0;    
+right:-350px}  
+   
+.weak{
+ 
+float:right;
+position:relative;
+top:1px;
+opacity:0;
+right:-350px}    
+   
+.critical{
+ 
+float:right;
+position:relative;
+top:1px;
+opacity:0;
+right:-350px}  
+ 
+ 
+/* WEATHER */
+.weather{
+ 
+text-shadow:none;
+ 
+color:rgba(0,0,0,0)}
+   
+.weather:after {
+ 
+display:block ;
+ 
+content:"";
+ 
+background:url(http://i.imgur.com/hVVDYsx.png);
+   
+position:absolute;
+ 
+top:0;
+ 
+left:0;
+ 
+width:640px;
+ 
+height:360px}  
+ 
+ 
+.weather
+{
+        position: absolute;
+        display: none;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    opacity: 1;
+}
+ 
+.weather em {
+display: block;
+margin: 50px 0 0 20px;
+font-size: 10pt;
+font-weight: bold;
+font-style: normal;
+color: black;
+}
+ 
+element.style{
+        display: block;
+        opacity: 1;
+}
+ 
+.weather em small
+{
+        font-style: normal;
+}
+ 
+ 
+.sunweather, .sunnydayweather{
+ 
+   
+    background:url(http://i.imgur.com/FypwhbA.gif) no-repeat scroll left top;
+ 
+    color: #000000;
+       
+    text-shadow: #FFFFFF 1px 1px 0, #FFFFFF 1px -1px 0, #FFFFFF -1px 1px 0, #FFFFFF -1px -1px 0;    
+   
+    background-size:cover}
+ 
+ 
+.rainweather, .raindanceweather{
+ 
+    background:url(http://i.imgur.com/hic1nf9.gif) no-repeat scroll left top;
+   
+        color: #000000;
+       
+        text-shadow: #FFFFFF 1px 1px 0, #FFFFFF 1px -1px 0, #FFFFFF -1px 1px 0, #FFFFFF -1px -1px 0;    
+   
+    background-size:cover}
+ 
+ 
+.sandstormweather{
+ 
+    background:url(http://i.imgur.com/qOw9a6v.gif) no-repeat scroll left top;
+ 
+        color: #000000;
+       
+        text-shadow: #FFFFFF 1px 1px 0, #FFFFFF 1px -1px 0, #FFFFFF -1px 1px 0, #FFFFFF -1px -1px 0;    
+ 
+    background-size:cover}
+ 
+ 
+.hailweather{
+ 
+    background:url(http://i.imgur.com/eUqkcVW.gif) no-repeat scroll left top;
+   
+        color: #000000;
+       
+        text-shadow: #FFFFFF 1px 1px 0, #FFFFFF 1px -1px 0, #FFFFFF -1px 1px 0, #FFFFFF -1px -1px 0;    
+   
+    background-size:cover}
+ 
+ 
+.pseudoweather{
+ 
+    background:url(http://i.imgur.com/WCrYols.gif) no-repeat scroll left top;
+   
+        color: #000000;
+       
+        text-shadow: #FFFFFF 1px 1px 0, #FFFFFF 1px -1px 0, #FFFFFF -1px 1px 0, #FFFFFF -1px -1px 0;    
+   
+    background-size:cover;
+ 
+    width:640px;
+ 
+    height:360px}
+ 
+ 
+ 
+ 
+.turn{
+ 
+    position:absolute;
+ 
+    top:-70px;
+ 
+    left:270px !important;
+ 
+    width:101px;
+ 
+    height:17px;
+ 
+    font-size:8pt;
+ 
+    font-weight:bold;
+ 
+    margin:0px;
+ 
+    padding:0px;
+ 
+    padding-top:35px;
+ 
+    border:0;
+ 
+    border-radius:0;
+ 
+    opacity:1 !important;
+ 
+    background:url(http://i.imgur.com/6SgSXmb.png);
+ 
+    text-align:center;
+ 
+    color:#cccccc}
+ 
+ 
+.turnstatus-protect{
+    background:url(http://i.imgur.com/RVxCoHz.png);
+    opacity:1!important;
+    height:103px!important;
+    width:150px!important;
+    border-radius:0;
+    border-width:0;
+    box-shadow:none;
+}
+    .sidecondition-reflect{
+    background:url(http://i.imgur.com/X1XDxVB.png);
+    opacity:0.7!important;
+    height:90px!important;
+    width:130px!important;
+    border-radius:0;
+    border-width:0;
+    box-shadow:none;
+}
+   
+    .sidecondition-safeguard{
+    background:url(http://i.imgur.com/FrCoWCW.png);
+    opacity:0.6!important;
+    height:90px!important;
+    width:130px!important;
+    border-radius:0;
+    border-width:0;
+    box-shadow:none;
+}
+ 
+.sidecondition-mist
+{
+          background:url(http://i.imgur.com/8eLftNA.png);
+ opacity:0.6!important;
+    height:90px!important;
+    width:130px!important;
+    border-radius:0;
+    border-width:0;
+    box-shadow:none;
+}
+   
+        .sidecondition-lightscreen{
+    background:url(http://i.imgur.com/8eLftNA.png);
+    opacity:0.6!important;
+    height:90px!important;
+    width:130px!important;
+    border-radius:0;
+    border-width:0;
+    box-shadow:none;
+}
+ 
+.username{
+ 
+    text-shadow:1px 1px black}
+ 
+.battle-log h2{
+ 
+    color:#dcc9c3;
+   
+    position:relative;
+ 
+    border:0px solid #AAAAAA;
+ 
+    padding-bottom:13px;
+   
+    padding-top:10px;
+   
+    background:url(http://i.imgur.com/g9VtP8f.png)}
+ 
+ 
+.battle-log h2:after{
+ 
+    display:block;
+ 
+    content:"";
+ 
+    width:31px;
+ 
+    height:18px;
+ 
+    position:absolute;
+ 
+    right:5px;
+ 
+    top:5px}
+ 
+.battle-log .chat em{
+ 
+    padding:1px 4px 1px 3px;
+ 
+    color:#ecf0f1;
+ 
+    font-style:normal}
+ 
+.battle-log .chat strong{
+ 
+    color:#ecf0f1}
+   
+.battle-log .chat small{
+ 
+    color:#ecf0f1}
+   
+.chat-log .chat small{
+ 
+    color:white}
+ 
+.challenge{
+ 
+    background:#3498db;
+ 
+    border:1px solid #2980b9;
+ 
+    color:rgba(0,0,0,.6);
+ 
+    padding:1px 5px}
+ 
+.ps-popup{
+ 
+    position:absolute;
+ 
+    top:auto;
+ 
+    right:auto;
+ 
+    left:auto;
+ 
+    bottom:auto;
+ 
+    text-align:left;
+ 
+    padding:2px 10px;
+ 
+    z-index:20;
+ 
+    border:1px solid #181818;
+ 
+    border-radius:2px;
+ 
+    box-shadow:inset 0px 0px 0px 1px rgba(0,0,0,.2);
+ 
+        color: white;
+ 
+    background:url(http://i.imgur.com/d86yRo1.jpg);
+ 
+        background-size:cover;}
+ 
+.popupmenu button {
+display: block;
+cursor: pointer;
+font-size: 8pt;
+font-family: Verdana,Helvetica,Arial,sans-serif;
+margin: 0 0 0 6px;
+padding: 0 4px;
+border: 0;
+border-radius: 2px;
+background: transparent;
+color: white;
+width: 204px;
+height: 19px;
+text-align: left;
+box-sizing: border-box;
+}
+ 
+.highlighted {
+background-color:red;
+}
+.roomlist a.ilink{
+display: block;
+margin: 2px 7px 4px 7px;
+padding: 1px 4px 2px 4px;
+border: solid white 2px;
+height: 30px;
+border-radius: 5px;
+font-size:14px;
+font-family: Tahoma, Verdana, Segoe, sans-serif;
+font-weight:bold;
+color:#fbfbfb;
+text-transform: uppercase;  
+text-align:left;
+text-shadow: 1px 1px 1px #4d4d4d,
+1px 0px 1px #4d4d4d;
+background: url(http://i.imgur.com/BQBvMVn.png);
+box-shadow:none;
+border-radius:0px;
+border-width:0;
+width:544px;
+padding-left:20px;
+padding-top:10px;
+padding-bottom:12px;
+overflow: hidden;
+white-space: nowrap;
+}
+ 
+button {
+        background: red;
+        color: white;
+        border-color: black;
+}
+ 
+    .teambar button {
+background: blue;
+border-color: hsl(278, 100%, 1%);
+font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+border-radius: 1px;
+color: white;
+}
+ .setmenu button {
+background: blue;
+border: 1px solid #111133;
+font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+border-radius: 1px;
+color: white;
+  }
+ 
+.setmenu button:hover {
+font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+border-radius: 1px;
+background: blue;
+border: 1px solid #111133;
+color: white;
+}
+ 
+ 
+ 
+.roomlist a.ilink:hover{
+     
+font-size:14px;
+font-family: Tahoma, Verdana, Segoe, sans-serif;
+font-weight:bold;
+color:#fbfbfb;
+text-transform: uppercase;  
+text-shadow: 1px 1px 1px #4d4d4d,
+1px 0px 1px #4d4d4d;
+background: url(http://i.imgur.com/JTtvNo0.png);
+box-shadow:none;
+border-radius:0px;
+border-width:0;
+width:544px;
+padding-left:20px;
+padding-top:10px;
+padding-bottom:12px;
+}  
+ 
+ 
+.movecontrols:after {
+ 
+content:"";
+ 
+background:url(http://i.imgur.com/BcP7Pc7.png);
+   
+opacity:1;
+   
+position:absolute;
+ 
+top:-95px;
+ 
+left:14px;
+ 
+width:612px;
+ 
+height:72px}
+ 
+.movemenu button{
+   
+transition:All 1.6116s ease;
+   
+width:150px;
+   
+height:43px;
+ 
+left:5px;  
+   
+border-radius:0;
+   
+border-width:0;
+   
+box-shadow:none;
+   
+color:grey;
+text-shadow:1px 1px black;
+   
+font-size:10pt;
+   
+padding-top:0px}
+ 
+ 
+.movemenu button small{
+ 
+text-align:center;
+ 
+width:62px;
+ 
+margin-top:2px}
+ 
+.movemenu button small.type, .movemenu button small.pp{
+ 
+padding-top:8px;
+ 
+color:whitesmoke}
+ 
+   
+.movemenu button.type-Normal{
+ 
+    background:url(http://i.imgur.com/1ctemFU.png)}
+ 
+.movemenu button.type-Normal:hover{
+   
+    transform: rotate(0deg) scale(1.10) skew(0deg) translate(0px);
+    background:url(http://i.imgur.com/vTfBrkj.png)}
+ 
+   
+    .movemenu button.type-Fairy{
+ 
+    background:url(http://i.imgur.com/rdPeaVu.png)}
+ 
+.movemenu button.type-Fairy:hover{
+   
+    transform: rotate(0deg) scale(1.10) skew(0deg) translate(0px);
+    background:url(http://i.imgur.com/bxU4lIL.png)}
+ 
+.movemenu button.type-Fire{
+ 
+    background:url(http://i.imgur.com/aP39wjQ.png)}
+ 
+.movemenu button.type-Fire:hover{
+   
+    transform: rotate(0deg) scale(1.10) skew(0deg) translate(0px);
+    background:url(http://i.imgur.com/Wbbty9g.png)}
+ 
+.movemenu button.type-Water{
+ 
+    background:url(http://i.imgur.com/cMJaVjV.png)}
+ 
+.movemenu button.type-Water:hover{
+   
+    transform: rotate(0deg) scale(1.10) skew(0deg) translate(0px);
+    background:url(http://i.imgur.com/Ufx3H8C.png)}
+ 
+.movemenu button.type-Electric{
+ 
+    background:url(http://i.imgur.com/UF3tbwp.png)}
+ 
+.movemenu button.type-Electric:hover{
+   
+    transform: rotate(0deg) scale(1.10) skew(0deg) translate(0px);
+    background:url(http://i.imgur.com/MQHXttp.png)}
+ 
+.movemenu button.type-Grass{
+ 
+    background:url(http://i.imgur.com/bNq1PyT.png)}
+ 
+.movemenu button.type-Grass:hover{
+   
+    transform: rotate(0deg) scale(1.10) skew(0deg) translate(0px);
+    background:url(http://i.imgur.com/k2PpmJa.png)}
+ 
+.movemenu button.type-Ice{
+ 
+    background:url(http://i.imgur.com/Kwcx3yV.png)}
+ 
+.movemenu button.type-Ice:hover{
+ 
+    transform: rotate(0deg) scale(1.10) skew(0deg) translate(0px);    
+    background:url(http://i.imgur.com/uufLOLk.png)}
+ 
+.movemenu button.type-Fighting{
+ 
+    background:url(http://i.imgur.com/hkBjSQ2.png)}
+ 
+.movemenu button.type-Fighting:hover{
+   
+    transform: rotate(0deg) scale(1.10) skew(0deg) translate(0px);
+    background:url(http://i.imgur.com/IvimpSI.png)}
+ 
+.movemenu button.type-Poison{
+ 
+    background:url(http://i.imgur.com/F4JSeNV.png)}
+ 
+.movemenu button.type-Poison:hover{
+   
+    transform: rotate(0deg) scale(1.10) skew(0deg) translate(0px);
+    background:url(http://i.imgur.com/cKmY6Kn.png)}
+ 
+.movemenu button.type-Ground{
+ 
+    background:url(http://i.imgur.com/HfD3UW8.png)}
+ 
+.movemenu button.type-Ground:hover{
+   
+    transform: rotate(0deg) scale(1.10) skew(0deg) translate(0px);
+    background:url(http://i.imgur.com/Szrf2un.png)}
+ 
+.movemenu button.type-Flying{
+ 
+    background:url(http://i.imgur.com/Y6XAWm6.png)}
+ 
+.movemenu button.type-Flying:hover{
+ 
+    transform: rotate(0deg) scale(1.10) skew(0deg) translate(0px);
+    background:url(http://i.imgur.com/qiEnZhM.png)}
+ 
+.movemenu button.type-Psychic{
+ 
+    background:url(http://i.imgur.com/ta9EV9f.png)}
+ 
+.movemenu button.type-Psychic:hover{
+   
+    transform: rotate(0deg) scale(1.10) skew(0deg) translate(0px);
+    background:url(http://i.imgur.com/wyCTbE4.png)}
+ 
+.movemenu button.type-Bug{
+ 
+    background:url(http://i.imgur.com/mvJWmou.png)}
+ 
+.movemenu button.type-Bug:hover{
+   
+    transform: rotate(0deg) scale(1.10) skew(0deg) translate(0px);
+    background:url(http://i.imgur.com/lqdXcxD.png)}
+ 
+.movemenu button.type-Rock{
+ 
+    background:url(http://i.imgur.com/523IIPS.png)}
+ 
+.movemenu button.type-Rock:hover{
+   
+    transform: rotate(0deg) scale(1.10) skew(0deg) translate(0px);
+    background:url(http://i.imgur.com/kPd2jmf.png)}
+ 
+.movemenu button.type-Ghost{
+ 
+    background:url(http://i.imgur.com/bGT4IB7.png)}
+ 
+.movemenu button.type-Ghost:hover{
+   
+    transform: rotate(0deg) scale(1.10) skew(0deg) translate(0px);
+    background:url(http://i.imgur.com/gnZ14wY.png)}
+ 
+.movemenu button.type-Dragon{
+ 
+    background:url(http://i.imgur.com/dJUGqK6.png)}
+ 
+.movemenu button.type-Dragon:hover{
+   
+    transform: rotate(0deg) scale(1.10) skew(0deg) translate(0px);
+    background:url(http://i.imgur.com/kIGBRyq.png)}
+ 
+ 
+.movemenu button.type-Dark{
+ 
+    background:url(http://i.imgur.com/PtLZlWc.png)}
+ 
+.movemenu button.type-Dark:hover{
+   
+    transform: rotate(0deg) scale(1.10) skew(0deg) translate(0px);
+    background:url(http://i.imgur.com/cWSnAJs.png)}
+ 
+.movemenu button.type-Steel{
+ 
+    background:url(http://i.imgur.com/2A1Rzvs.png)}
+ 
+.movemenu button.type-Steel:hover{
+   
+    transform: rotate(0deg) scale(1.10) skew(0deg) translate(0px);
+    background:url(http://i.imgur.com/vGQVEtf.png)}
+ 
+.movemenu button.type-undefined, .movemenu button.type-undefined:hover{
+ 
+    background:url(http://i.imgur.com/1ctemFU.png)}
+ 
+.movemenu button:disabled{
+ 
+    background:url(http://i.imgur.com/5V27fmf.png) !important;
+    opacity:.20}
+   
+.movemenu button:disabled:hover{
+   
+    transform: rotate(0deg) scale(0.90) skew(0deg) translate(0px);
+    background:url(http://i.imgur.com/vGQVEtf.png)}
+ 
+   
+.movemenu label {
+        position: absolute;
+                color: black;
+        top: 38px;
+        right: 16px;
+}
+ 
+ 
+ 
+.switchmenu button, .switchmenu button:disabled{
+    background:url(http://i.imgur.com/qYAMtSx.png) !important;
+    border: none;
+        width: 98px;
+    box-shadow: none;
+    border-radius: 18px;
+        font-size: 8pt;
+        color: white;  
+    text-shadow: 1px 1px black;
+}
+ 
+.switchmenu button .hpbar{      
+        width: 88px;
+}
+   
+.switchselect button {
+color:#7fff00;
+cursor: default;
+}
+ 
+.moveselect button {
+color: orange;
+cursor: default;
+}
+ 
+#tooltipwrapper{
+ 
+position:absolute;
+ 
+top:400px;
+ 
+left:100px;
+ 
+text-align:left;
+ 
+font-weight:bold;
+ 
+color:#003442}
+ 
+#tooltipwrapper .tooltipinner{
+ 
+    position:relative}
+ 
+#tooltipwrapper .tooltip{
+ 
+position: absolute;
+ 
+bottom: 0;
+ 
+left: 0;
+ 
+width: 300px;
+ 
+border:1px solid #00b5e5;
+ 
+background:url(http://i.imgur.com/1DyUMw3.png);
+ 
+border-radius:2px}
+ 
+#tooltipwrapper .tooltip h2{
+ 
+padding:2px 4px;
+ 
+margin:0;
+ 
+border-bottom:1px solid #00b5e5;
+ 
+font-size:10pt}
+ 
+#tooltipwrapper .tooltip h2 small{
+ 
+font-weight:normal;
+ 
+font-size:0pt;
+ 
+position:absolute;
+ 
+bottom:-10px;
+ 
+left:-49px;
+ 
+background:url(http://i.imgur.com/MqlK1H9.png);
+ 
+width:392px;
+ 
+height:93px}
+ 
+#tooltipwrapper .tooltip p{
+ 
+padding:2px 4px;
+ 
+margin:0;
+ 
+font-size:7.8pt}
+ 
+#tooltipwrapper .tooltip p.section{
+ 
+border-top:1px solid #161616}  
+ 
+.setchart {
+        border: 2px solid black;
+        background: url("http://tumblrchase.com/img/bg/84.gif") ;
+ 
+}
+ 
+.setchart-nickname {
+background: blue;
+border: 1px solid #111133;
+font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+border-radius: 9px;
+color: white;
+  }
+ 
+.setchart label,
+.setchart-nickname label {
+    color:white;
+ 
+  }
+ 
+  .setdetails, .setstats {
+font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;  
+background: url("http://tumblrchase.com/img/bg/84.gif");
+color:white;
+border: 1px solid black;
+}
+ 
+.setdetails:hover, .setstats:hover {
+border-color: white;
+box-shadow: inset 0px 1px 2px #D2D2D2,1px 1px 0 rgba(255,255,255,.6);
+background: url("http://tumblrchase.com/img/bg/84.gif");
+opacity: 8;
+}
+   
+    .teamchartbox {
+  background: url(http://image.naldzgraphics.net/2012/03/24-Blue.jpg);
+  background-size:cover;
+  border-top: 2px solid black;
+  }
+ 
+.teambuilder-results .result a:hover {
+padding: 0px 0px 0px 4px;
+border: 1px solid #D8D8D8;
+background: black;
+}
+ 
+.teambuilder-results .result a {
+border-radius: 4px;
+padding: 1px 1px 1px 5px;
+margin: 0 5px 1px 5px;
+background: black;
+cursor: pointer;
+}
+ 
+  .setstats .statrow-head em {
+        color: #ecf0f1;
+}
+ 
+.movenamecol {
+      color:#ecf0f1 !important;
+    }
+.itemdesccol{
+    color: #ecf0f1 !important;
+  }
+ 
+.itemnamecol {
+  color: #ecf0f1 !important;
+}
+ 
+.movedesccol {
+    color: #ecf0f1 !important;
+  }
+ 
+.utilichart .numcol {
+width: 24px;
+padding-right: 5px;
+text-align: right;
+color: #ecf0f1;
+padding-top: 7px;
+font-size: 8pt;
+}
+ 
+.utilichart .pokemonnamecol {
+padding-top: 5px;
+height: 23px;
+width: 127px;
+color: #ecf0f1;
+font-size: 10pt;
+}
+ 
+.utilichart .namecol {
+padding-top: 5px;
+height: 23px;
+width: 120px;
+color: #ecf0f1;
+font-size: 10pt;
+}
+ 
+.utilichart .abilitydesccol {
+white-space: nowrap;
+padding-top: 7px;
+font-size: 8pt;
+width: 488px;
+height: 21px;
+overflow: hidden;
+color: #ecf0f1;
+}
+   
+.utilichart .twoabilitycol {
+padding-top: 0;
+height: 28px;
+font-size: 8pt;
+width: 90px;
+color: #ecf0f1;
+}
+ 
+.utilichart .abilitycol {
+padding-top: 7px;
+height: 21px;
+font-size: 8pt;
+width: 90px;
+color: #ecf0f1;
+}
+ 
+.statform {
+color: red;
+  }
+ 
+.utilichart .labelcol em, .utilichart .widelabelcol em, .utilichart .pplabelcol em, .utilichart .statcol em, .utilichart .bstcol em {
+color: #ecf0f1;
+font-size: 7pt;
+font-style: normal;
+}
+ 
+.utilichart .statcol, .utilichart .bstcol, .utilichart .labelcol, .utilichart .widelabelcol, .utilichart .pplabelcol {
+color: #ecf0f1;  
+}
+ 
+.ladder table, .ladder td {
+   border:2px solid white;
+   background: url(http://tumblrchase.com/img/bg/84.gif);
+   color:white;
+  }
+ 
+.ladder th {
+background: url(http://images.nationalgeographic.com/wpf/media-live/photos/000/442/overrides/space171-jabbah-star-system_44215_600x450.jpg);
+}
+ 
+/* Replays */
+.pfx-panel{
+ 
+ background:#333}
+ 
+ 
+.pfx-topbar{
+ 
+background:#2e2e2e;
+ 
+ border-bottom-color:#2f2f2f}
+   
+.header{
+ 
+background:#2e2e2e;
+ 
+border-bottom-color:#2f2f2f}
+ 
+ 
+.replay-wrapper .battle-log{
+ 
+ height:410px;
+ 
+ top:-35px}
+ 
+.replay-wrapper{
+ 
+top:40px}
+ 
+.chooser button {
+border: 0;
+background: transparent;
+padding: 2px 4px;
+font-size: 9pt;
+font-family: Verdana,sans-serif;
+border-radius: 3px;
+cursor: pointer;
+color: black;
+}
+}
